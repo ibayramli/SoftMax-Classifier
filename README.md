@@ -4,8 +4,11 @@ In this repo, I train an image classifer usign cross-entropy loss function. Trai
 Note that no external machine learning libraries were used in this exercise. All the computations are performed with help of vectorized array manipulations in numpy. 
 
 To run this code, you must first obtain the CIFAR-10 dataset by first running the following shell code:
+
 wget http://www.cs.toronto.edu/~kriz/cifar-10-python.tar.gz
+
 tar -xzvf cifar-10-python.tar.gz
+
 rm cifar-10-python.tar.gz
 
 The structure of the documents and data importing tools (data_utils.py) are borrowed from Stanford's CS231n: Convolutional Neural Networks class assignments.
